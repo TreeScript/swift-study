@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "nickname": "MOON",
+    "age": 30,
+    "level": 42,
+    "gold": 3000,
+    "cash": 120,
+    "isActive": true,
+    "lastLoginDaysAgo": 1,
+    "guild": {
+      "id": 101,
+      "name": "BurgerKingdom",
+      "role": "master"
+    },
+    "items": [
+      { "itemId": 1001, "name": "Sword", "count": 1, "grade": "rare" },
+      { "itemId": 2001, "name": "Potion", "count": 15, "grade": "normal" }
+    ]
+  },
+  {
+    "id": 2,
+    "nickname": "KIM",
+    "age": 17,
+    "level": 8,
+    "gold": 500,
+    "cash": 0,
+    "isActive": false,
+    "lastLoginDaysAgo": 20,
+    "guild": null,
+    "items": [
+      { "itemId": 2001, "name": "Potion", "count": 3, "grade": "normal" }
+    ]
+  },
+  {
+    "id": 3,
+    "nickname": "LEE",
+    "age": 25,
+    "level": 31,
+    "gold": 1200,
+    "cash": 50,
+    "isActive": true,
+    "lastLoginDaysAgo": 3,
+    "guild": {
+      "id": 102,
+      "name": "SwiftGuild",
+      "role": "member"
+    },
+    "items": [
+      { "itemId": 3001, "name": "Ring", "count": 1, "grade": "epic" },
+      { "itemId": 2001, "name": "Potion", "count": 8, "grade": "normal" }
+    ]
+  }
+]
