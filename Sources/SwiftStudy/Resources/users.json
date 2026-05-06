@@ -44,11 +44,31 @@
     "guild": {
       "id": 102,
       "name": "SwiftGuild",
-      "role": "member"
+      "role": "master"
     },
     "items": [
       { "itemId": 3001, "name": "Ring", "count": 1, "grade": "epic" },
       { "itemId": 2001, "name": "Potion", "count": 8, "grade": "normal" }
     ]
+  },
+  {
+    "id": 4,
+    "nickname": "PARK",
+    "age": 22,
+    "level": 52,
+    "gold": 3200,
+    "cash": 1000,
+    "isActive": true,
+    "lastLoginDaysAgo": 9,
+    "guild": {
+      "id": 102,
+      "name": "SwiftGuild",
+      "role": "member"
+    },
+    "items": [
+      { "itemId": 3003, "name": "Ring", "count": 2, "grade": "epic" },
+      { "itemId": 2002, "name": "Potion", "count": 10, "grade": "epic" }
+    ]
   }
+  
 ]

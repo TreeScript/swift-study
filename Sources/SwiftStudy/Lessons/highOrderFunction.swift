@@ -1,12 +1,12 @@
 func runHighOrderFunctionsLesson() {
 
-    let users = loadUsers()
+    let users: [User] = loadUsers()
 
     let activeHighLevelNicknames = users
         .filter { $0.isActive && $0.level >= 30 }
         .map { $0.nickname }
 
-    // print("activeHighLevelNickname: \(activeHighLevelNicknames)")
+    print("activeHighLevelNickname: \(activeHighLevelNicknames)")
 
     // let totalGold = users.reduce(0) { total, user in
     //     total + user.gold

@@ -4,6 +4,10 @@
 @main
 struct Swift {
     static func main() {
-        runHighOrderFunctionsLesson()
+        // runHighOrderFunctionsLesson()
+        // optionalBasic()
+        // optionalAdvance()
+        // runCollectionQuery()
+        grouping()
     }
 }
